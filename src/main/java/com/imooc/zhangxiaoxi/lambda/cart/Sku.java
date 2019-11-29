@@ -1,24 +1,37 @@
 package com.imooc.zhangxiaoxi.lambda.cart;
 
 /**
+ * @author:Sea
  * 下单商品信息对象
  */
 public class Sku {
-    // 编号
+    /**
+     * 商品名称
+     */
     private Integer skuId;
-    // 商品名称
+    /**
+     * 商品名称
+     */
     private String skuName;
-    // 单价
+    /**
+     * 单价
+     */
     private Double skuPrice;
-    // 购买个数
+    /**
+     * 购买个数
+     */
     private Integer totalNum;
-    // 总价
+    /**
+     * 总价
+     */
     private Double totalPrice;
-    // 商品类型
+    /**
+     * 商品类型
+     */
     private Enum skuCategory;
 
     /**
-     * 构造函数
+     *
      * @param skuId
      * @param skuName
      * @param skuPrice
@@ -37,10 +50,8 @@ public class Sku {
         this.skuCategory = skuCategory;
     }
 
-    /**
-     * Get方法
-     * @return
-     */
+
+
     public Integer getSkuId() {
         return skuId;
     }

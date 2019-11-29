@@ -1,6 +1,7 @@
 package com.imooc.zhangxiaoxi.lambda.cart;
 
 /**
+ * @author:Sea
  * 对Sku的商品类型为图书类的判断标准
  */
 public class SkuBooksCategoryPredicate implements SkuPredicate {

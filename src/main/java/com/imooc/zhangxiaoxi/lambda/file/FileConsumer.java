@@ -1,6 +1,7 @@
 package com.imooc.zhangxiaoxi.lambda.file;
 
 /**
+ * @author:Sea
  * 文件处理函数式接口
  */
 @FunctionalInterface
